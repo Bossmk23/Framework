@@ -1,0 +1,17 @@
+model:
+  name: simple_model
+  params:
+    input_size: 128
+    output_size: 10
+
+dataset:
+  name: dummy_dataset
+  params:
+    num_samples: 500
+    input_size: 128
+
+trainer:
+  name: base_trainer
+  params:
+    epochs: 3
+    learning_rate: 0.01
